@@ -1,0 +1,3 @@
+{
+  "postCreateCommand": "./scripts/setup.sh"
+}
