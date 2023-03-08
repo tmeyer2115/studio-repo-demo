@@ -1,3 +1,8 @@
 {
-  "postCreateCommand": "chmod +x .devcontainer/scripts/setup.sh && ./.devcontainer/scripts/setup.sh"
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "nvmVersion": 17
+    }
+  }
 }
